@@ -1,346 +1,1273 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
 
-    <title>Thirumala Reddy | Developer</title>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thirumala Reddy - Unity Developer</title>
 
-    <meta name="keywords" content="Game Developer, Unity Developer, Unity" />
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/MyImages/logo.ico" type="image/x-icon">
 
-    <meta name="description" content="Unity Developer | Developer" />
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
 
-    <link rel="icon" type="image/png" href="./assets/favicon.ico" />
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
 
-    <meta name="theme-color" content="#000000" />
+<body>
 
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
-    <!-- Fill content with the URL of this portfolio you'll host -->
-    <meta property="og:url" content="https://thirumal-231.github.io/Thirumal231/" />
-    <!-- Fill content with the title of your portfolio(Recommended to use what you put in <title> tag) -->
-    <meta property="og:title" content="Thirumala Reddy | Developer" />
-    <!-- Give a short description that'll show up when you/someone shares your portfolio on different platform -->
-    <meta property="og:description" content="Unity Game Developer" />
-    <!-- Add a thumbnail image in assets folder and fill the content attr with URL to that thumbnail 
-      so that a thumbnail image of your portfolio is shown while shared on other platform -->
-    <meta
-      property="og:image"
-      content="https://github.com/thirumal-231/Thirumal231/blob/master/assets/devfolio1.png"
-    />
+  <!--
+    - #MAIN
+  -->
 
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <!-- Again fill content attr with the URL of this portfolio you'll host -->
-    <meta property="twitter:url" content="https://thirumal-231.github.io/Thirumal231/" />
-    <!-- Recommended to use the same text used within <title> element -->
-    <meta property="twitter:title" content="Unity Developer | Developer" />
-    <!-- short description that shows up while your portfolio is shared -->
-    <meta
-      property="twitter:description"
-      content="Game Developer"
-    />
-    <!-- Fill content with the URL to the thumbnail image that you'll put in the assets folder -->
-    <meta
-      property="twitter:image"
-      content="https://github.com/thirumal-231/Thirumal231/blob/master/assets/devfolio1.png"
-    />
+  <main>
 
-    <!-- link tags -->
-    <link rel="preload" as="style" href="./css/main.css" />
-    <link rel="stylesheet" href="./css/main.css" />
+    <!--
+      - #SIDEBAR
+    -->
 
-    <!-- FontAwesome Icons link -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <script defer src="./javascript/scrollreveal.min.js"></script>
-    <script
-      defer
-      type="text/javascript"
-      src="./javascript/scrollveal.js"
-    ></script>
+    <aside class="sidebar" data-sidebar>
 
-    <!-- Remove Google Analytics once you have your portfolio website set-up -->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-122228201-4"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || []
-      function gtag() {
-        dataLayer.push(arguments)
-      }
-      gtag("js", new Date())
+      <div class="sidebar-info">
 
-      gtag("config", "UA-122228201-4")
-    </script>
-    <!-- End of Google Analytics -->
-  </head>
-  <body>
-    <!-- Hero Section -->
-    <div id="hero">
-      <section class="container">
-        <h1 class="hero-title">
-          Hi, my name is <span class="text-color-main name">Thirumala Reddy</span>
-          <br />
-          I'm a Unity Developer.
-        </h1>
-        <p class="hero-cta">
-          <a class="cta-btn cta-btn--hero" href="mailto:o170231thiru@gmail.com" target="_blank">Get in touch</a>
-        </p>
-      </section>
-      <a href="#about" class="scroll-down-link" aria-label="scroll-down">
-        <div class="scroll-down"></div
-      ></a>
-    </div>
-    <!-- /END Hero Section -->
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Thirumala Reddy" width="80">
+        </figure>
 
-    <!-- About Section -->
-    <section id="about">
-      <div class="container">
-        <h2 class="section-title">About Me</h2>
-        <div class="row about-wrapper">
-          <div class="about-wrapper__image">
-            <img
-              class="img-fluid"
-              src="./assets/ThirumalaReddyProfile.png"
-              alt="Profile Image"
-              width="450"
-              height="350"
-            />
-          </div>
-          <div class="about-wrapper__info">
-            <p class="about-wrapper__info-text">
-              Aspiring Unity game developer with a solid foundation in Unity and UI basics. Accomplished in building games independently, showcasing adaptability and a quick learning curve. Eager to further develop skills and contribute to dynamic game development projects.
-            </p>
-            <p class="about-wrapper__info-text">
-              Enthusiastic about expanding knowledge base and embracing new challenges in the ever-evolving world of game development.
-            </p>
-            <span class="about-wrapper__cta">
-              <a href="https://docs.google.com/presentation/d/1MXCGOrnxftwLzhI5H8stvkeTK1TWKaPXKM-0_J0DaWw/edit?usp=sharing" target="_blank" class="cta-btn cta-btn--resume">View Resume</a>
-            </span>
-          </div>
+        <div class="info-content">
+          <h1 class="name" title="Thirumala Reddy">Thirumala Reddy</h1>
+
+          <p class="title">Unity developer</p>
         </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
       </div>
-    </section>
-    <!-- /END About Section -->
 
-    <!--Projects Section-->
-    <section id="projects">
-      <div class="container">
-        <div class="project-wrapper">
-          <h2 class="section-title dark-blue-text">Projects</h2>
+      <div class="sidebar-info_more">
 
-          <!-- Each .row is a project -->
-          <article class="row">
-            <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">Road Runner</h3>
-              <p class="project-wrapper__text-info">
-                Designed and programmed an endless runner game, Implemented data persistence across multiple sessions using JSON parsing.
-              </p>
-              <h2>Tags: </h2>
-              <p>Unity 3D, C#, Animation</p>
-              <div class="project-wrapper__text-btns">
-                <a
-                  href="https://youtu.be/jfJGXrY9CNM?si=RXW9oQpv9RJFC0in"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="cta-btn cta-btn--hero cta-btn--projects"
-                  >View here </a
-                >
-                <a href="https://github.com/thirumal-231/RoadRunner" target="_blank" class="cta-btn text-color-main"
-                  >Source Code</a
-                >
-              </div>
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
             </div>
 
-            <div class="project-wrapper__image">
-              <a href="https://youtu.be/jfJGXrY9CNM?si=RXW9oQpv9RJFC0in" target="_blank" rel="noopener noreferrer">
-                <div class="thumbnail rounded">
-                  <img
-                    src="./assets/RoadRunner.png"
-                    class="img-fluid"
-                    alt="Project Image"
-                    width="1366"
-                    height="767"
-                  />
-                </div>
-              </a>
-              <!-- <iframe width="1366" height="767" src="https://youtu.be/jfJGXrY9CNM?si=RXW9oQpv9RJFC0in">
-              </iframe> -->
-            </div>
-          </article>
-          <!-- /END Project -->
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
 
-          <!-- Each .row is a project -->
-          <article class="row">
-            <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">EnginAR</h3>
-              <p class="project-wrapper__text-info">
-                Displayed my expertise in Augmented Reality by creating AR Engine app. Improves student knowledge as it shows the essential information regarding all the parts.
-              </p>
-              <h2>Tags: </h2>
-              <p>Augmented Reality, C#, Realtime</p>
-              <div class="project-wrapper__text-btns">
-                <a
-                  href="https://youtube.com/shorts/4vm_QxaDuOw?si=9j4VA1qjfePmktdk"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="cta-btn cta-btn--hero cta-btn--projects"
-                  >View here</a
-                >
-                <!-- <a href="https://github.com/thirumal-231/Astroids" target="_blank" class="cta-btn text-color-main"
-                  >Source Code</a
-                > -->
-              </div>
+              <a href="mailto:o170231thiru@gmail.com" class="contact-link">o170231thiru@gmail.com</a>
             </div>
 
-            <div class="project-wrapper__image">
-              <a href="https://youtube.com/shorts/4vm_QxaDuOw?si=9j4VA1qjfePmktdk" target="_blank" rel="noopener noreferrer">
-                <div class="thumbnail rounded">
-                  <img
-                    src="./assets/EnginerAR.png"
-                    class="img-fluid"
-                    alt="Project Image"
-                    width="1366"
-                    height="767"
-                  />
-                </div>
-              </a>
-              <!-- <iframe width="1366" height="767" src="https://youtube.com/shorts/4vm_QxaDuOw?si=9j4VA1qjfePmktdk">
-              </iframe> -->
-            </div>
-          </article>
-          <!-- /END Project -->
+          </li>
 
-          <!-- Each .row is a project -->
-          <article class="row">
-            <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">carZ</h3>
-              <p class="project-wrapper__text-info">
-                Designed and developed 3D AR product configurator in unity, product can be modified and visualised in real world in real time.
-              </p>
-              <h2>Tags: </h2>
-              <p>AR, Unity, C#</p>
-              <div class="project-wrapper__text-btns">
-                <a
-                  href="https://youtube.com/shorts/mrZoamlanHQ?si=2dJlwZmJlA8fJdYM"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="cta-btn cta-btn--hero cta-btn--projects"
-                  >View here</a
-                >
-                <!-- <a href="https://drive.google.com/drive/folders/1WrTheayUrBGp2sPJqhj5gilalcc6E0f-?usp=sharing" target="_blank" class="cta-btn text-color-main"
-                  >Source Code</a
-                > -->
-              </div>
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
             </div>
 
-            <div class="project-wrapper__image">
-              <a href="https://youtube.com/shorts/mrZoamlanHQ?si=2dJlwZmJlA8fJdYM" target="_blank" rel="noopener noreferrer">
-                <div class="thumbnail rounded">
-                  <img
-                    src="./assets/carZ.png"
-                    class="img-fluid"
-                    alt="Project Image"
-                    width="1366"
-                    height="767"
-                  />
-                </div>
-              </a>
-              <!-- <iframe width="1366" height="767" src="https://youtube.com/shorts/mrZoamlanHQ?si=2dJlwZmJlA8fJdYM">
-              </iframe> -->
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+919182037368" class="contact-link">+91 91820 37368</a>
             </div>
-          </article>
-          <!-- /END Project -->
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2001-04-06">April 06, 2001</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Chennai, TamilNadu, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/thirumal-231" target="_blank" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/thirumala231/" target="_blank" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://twitter.com/thirumal_0231" target="_blank" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/thirumal_231/" target="_blank" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>Portfolio</button>
+          </li>
 
           
-        </div>
-      </div>
-    </section>
-    <!-- End Projects Section -->
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+          
+          <li class="navbar-item">
+            <button class="navbar-link " data-nav-link>About</button>
+          </li>
 
-    <!-- Contact Section -->
-    <section id="contact">
-      <div class="container">
-        <h2 class="section-title">Contact</h2>
-        <div class="contact-wrapper">
-          <p class="contact-wrapper__text">Want to Work with me</p>
-          <a href="mailto:o170231thiru@gmail.com" target="_blank" class="cta-btn cta-btn--resume">Hire Me</a>
-        </div>
-      </div>
-    </section>
-    <!-- END Contact Section -->
 
-    <!-- Footer Section -->
-    <footer class="footer">
-      <div class="container">
-        <a href="#hero" class="back-to-top" aria-label="go back to top">
-          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
-        </a>
-        <div class="social-links">
-          <a
-            href="https://twitter.com/Thirumal_231"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="twitter"
-          >
-            <i class="fa-brands fa-twitter"></i>
-          </a>
-          <a
-            href="https://www.instagram.com/thirumal_231/"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="instagram"
-          >
-            <i class="fa-brands fa-instagram"></i>
-          </a>
-          <a
-            href=""
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="codepen"
-          >
-            <i class="fa-brands fa-google-play"></i>
-          </a>
-          <a
-            href="https://www.linkedin.com/in/thirumala231/"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="linkedin"
-          >
-            <i class="fa-brands fa-linkedin"></i>
-          </a>
-          <a
-            href="https://github.com/thirumal-231"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="github"
-          >
-            <i class="fa-brands fa-github"></i>
-          </a>
-        </div>
-        <hr />
-        <p class="footer__text">
-          &copy; <span id="year"></span> Thirumala Reddy. <br />Made with &hearts;
-        </p>
-      </div>
-    </footer>
-    <!-- END Footer Section -->
+          
 
-    <script>
-      document.getElementById("year").textContent = new Date().getFullYear()
-    </script>
-    <script src="./javascript/vanilla-tilt.min.js"></script>
-    <script type="text/javascript" src="./javascript/valtilt.js"></script>
-  </body>
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li> -->
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      
+      
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio active" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <!-- <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Game Development</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>AR/VR Development</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>3D Modelling</button>
+            </li>
+
+          </ul> -->
+
+          <div class="filter-select-box">
+
+            <button class="filter-selecta" data-select>
+
+              <!-- <div class="select-value" data-selecct-value>Select category</div> -->
+
+              <!-- <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div> -->
+
+            </button>
+
+            <!-- <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Game Development</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>AR/VR Development</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>3D Modelling</button>
+              </li>
+
+            </ul> -->
+
+          </div>
+
+          
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="Game Development">
+              <a href="https://youtu.be/jn_qTvqraZs?si=BeUOUhl0LCovxdas" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/RocketBoost.png"  alt="Rocket Boost" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Rocket Boost</h3>
+
+                <p class="project-category">Unity | 3D | C#</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="3D Modelling">
+              <a href="https://youtube.com/shorts/HLyiN1Dg9DI?si=DykgX8OLI_poSOrU" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Blender.png" alt="Walk Cycle" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Walk Cycle</h3>
+
+                <p class="project-category">Blender | Animation</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Game Development">
+              <a href="https://youtu.be/34qd9P6oUz0?si=I3NGvBdnud4eC2OV" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/TowerDefenceImage.png" alt="Tower Defence Game" loading="lazy">
+                
+                </figure>
+
+                <h3 class="project-title">Tower Defence Game</h3>
+
+                <p class="project-category">Unity | 3D | C# | UI/UX</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Unity">
+              <a href="https://youtu.be/Dzg8PK5bMk0?si=hNkRdtt0ANV7xKtk" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Datsun.png" alt="Unity" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Cinematic Render</h3>
+
+                <p class="project-category">Unity | Blender | Cinematic Render</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Game Development">
+              <a href="https://youtu.be/rU7cmwsJLss?si=_M_oI6_EY4JNk-fQ" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/combatSystem.png" alt="Combat System" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Combat System</h3>
+
+                <p class="project-category">Unity | 3D | Animation | C#</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Augmented Reality">
+              <a href="https://youtube.com/shorts/4vm_QxaDuOw?si=yzFF9bJXIgpFo8nE" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/EnginAR.png" alt="EnginAR" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">EnginAR</h3>
+
+                <p class="project-category">AR | Unity | Vuforia | UI/UX</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Game Development">
+              <a href="https://youtu.be/B9Fc1a-5R20?si=fSHg4SMOCGS__sT1" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Astroids.png" alt="Astroids" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Astroids</h3>
+
+                <p class="project-category">Unity | 2D | Math | Physics</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Game Development">
+              <a href="https://youtu.be/J4FXD5vAlNI?si=1D3BKY3NSKjg0uu3" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/DeliveryDriver.png" alt="Delivery Driver" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Delivery Driver</h3>
+
+                <p class="project-category">Unity | 2D | Game Design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Game Development">
+              <a href="https://youtu.be/jfJGXrY9CNM?si=NXNVNCmThpM7Zt_2" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/RoadRunner.png" alt="RoadRunner" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">RoadRunner</h3>
+
+                <p class="project-category">Unity | 3D | Data persistence | Level design</p>
+
+              </a>
+            </li>
+
+            
+
+            <li class="project-item  active" data-filter-item data-category="Virtual Reality">
+              <a href="https://youtu.be/87xB8ajd_Z0?si=06HFog46LBxkcn67" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/VRRoom.png" alt="VR Room" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">VR Room</h3>
+
+                <p class="project-category">Unity | C# | Virtual Reality</p>
+
+              </a>
+            </li>
+
+            
+
+            
+
+            <li class="project-item  active" data-filter-item data-category="Game Development">
+              <a href="https://youtu.be/04UkHhKLTCk?si=hpWFrWv6N9SXnet4" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/TrafficEscape.png" alt="Traffic Escape" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Traffic Escape</h3>
+
+                <p class="project-category">Unity | 3D | Android | C#</p>
+
+              </a>
+            </li>
+
+            
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Madras Mind Works</h4>
+
+              <span>AR/VR Development Trainee</span>
+
+              <p class="timeline-text">
+                Was trained professionally by Madras Mind Works in the field of Augmented Reality and Virtual Reality
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">RGUKT Ongole</h4>
+
+              <span>Bachelors of Technology - 2023</span>
+
+              <p class="timeline-text">
+                Passed out as a mechanical engineer from Rajiv Gandhi University of Knowledge Technologies - Ongole with 8.9 CGPA
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">ZPH School</h4>
+
+              <span>Secondary School</span>
+
+              <p class="timeline-text">
+                Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur
+                magni dolores
+                eos.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Madras Mind Works</h4>
+
+              <span>Unity Developer - Intern</span>
+              <span>Mar 2024 - present</span>
+
+              <p class="timeline-text">
+                currently working as AR/VR development intern at Madras Mind Works, worked with highly talented team, contributing my best efforts for the growth of Madras Mind Works.
+              </p>
+
+            </li>
+
+            <!-- <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Art director</h4>
+
+              <span>2013 — 2015</span>
+
+              <p class="timeline-text">
+                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
+                quas molestias
+                exceptur.
+              </p>
+
+            </li> -->
+
+            <!-- <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Web designer</h4>
+
+              <span>2010 — 2013</span>
+
+              <p class="timeline-text">
+                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
+                quas molestias
+                exceptur.
+              </p>
+
+            </li> -->
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Game Development</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Blender</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">UI/UX</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">AR/VR Development</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+      <!--
+        - #ABOUT
+      -->
+
+
+      <article class="about " data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am a seasoned Unity game developer with a passion for crafting immersive digital experiences.  My journey with Unity has taken me across diverse realms, from creating captivating 2D/3D games to delving into the realms of VR/AR
+          </p>
+
+          <p>
+            I pride myself on delivering seamless, player-centric experiences. Game development is not just a career for me; it's a canvas where I blend artistry and innovation. Whether it's tackling intricate coding challenges or conceptualizing game mechanics, I approach each project with enthusiasm and a relentless pursuit of excellence.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/MyImages/3dModelling.svg" alt="3dModelling icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">3D Modelling</h4>
+
+                <p class="service-item-text">
+                  Models made at a professional level with good topology in mind.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/MyImages/GameDevelopment.svg" alt="Game development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Game Development</h4>
+
+                <p class="service-item-text">
+                  Development of games with proper use of design patterns.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/MyImages/ARVRDevelopment.svg" alt="AR/VR Development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">AR/VR Development</h4>
+
+                <p class="service-item-text">
+                  Professional development of AR?VR experiences for iOS and Android.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/MyImages/UIUXIcon.svg" alt="UI/UX icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">UI/UX Design</h4>
+
+                <p class="service-item-text">
+                  Experienced in what creating designs that users find appealing.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Jayabalachandran" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>JayaBalaChandran</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    "I was thoroughly impressed with Thirumala's coding prowess. Having reviewed his projects, I commends his exceptional skills and innovation. A truly talented and insightful developer."
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Aravind" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Aravind</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    From conceptualization to execution, Thirumala exhibited a remarkable grasp of game design principles, often exceeding expectations. Their commitment to refining their skills and embracing new ideas makes them an asset to any team.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Jayabalachandran" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>JayaBalaChandran</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    "I was thoroughly impressed with Thirumala's coding prowess. Having reviewed his projects, I commends his exceptional skills and innovation. A truly talented and insightful developer."
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Aravind</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    From conceptualization to execution, Thirumala exhibited a remarkable grasp of game design principles, often exceeding expectations. Their commitment to refining their skills and embracing new ideas makes them an asset to any team.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <!-- <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li> -->
+
+            <!-- <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li> -->
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2023-12-14">14 December, 2023</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-2-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-4-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <!-- <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+
+                  <p class="blog-text">
+                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+
+                  <p class="blog-text">
+                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                  <p class="blog-text">
+                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+
+                  <p class="blog-text">
+                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+
+                  <p class="blog-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                  <p class="blog-text">
+                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article> -->
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248756.13131228785!2d80.04419819043571!3d13.047473316234447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265ea4f7d3361%3A0x6e61a70b6863d433!2sChennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1710821476062!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
 </html>
