@@ -785,7 +785,7 @@ main {
   margin-left: 45px;
 }
 
-.timeline-item { position: relative; }
+.timeline-item { position: relative; color: #d6d6d6; }
 
 .timeline-item:not(:last-child) { margin-bottom: 20px; }
 
@@ -802,6 +802,17 @@ main {
 }
 
 .timeline-item:not(:last-child)::before {
+  /* content: ""; */
+  position: absolute;
+  top: 25px;
+  left: -30px;
+  width: 1px;
+  height: calc(100% + 50px);
+  background: var(--jet);
+  box-shadow: 0;
+}
+
+.timeline-item:not(:last-child)::before {
   content: "";
   position: absolute;
   top: -25px;
@@ -809,6 +820,16 @@ main {
   width: 1px;
   height: calc(100% + 50px);
   background: var(--jet);
+}
+
+.dot {
+  margin-top: 3px;
+  margin-bottom: 1px;
+  margin-right: 10px;
+  height: 7px;
+  width: 7px;
+  background-color: #ceb15a;
+  display: inline-block;
 }
 
 .timeline-item::after {
@@ -821,6 +842,18 @@ main {
   background: var(--text-gradient-yellow);
   border-radius: 50%;
   box-shadow: 0 0 0 4px var(--jet);
+}
+
+.timeline-item expPoints::after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: -33px;
+  height: 6px;
+  width: 6px;
+  background: var(--text-gradient-yellow);
+  border-radius: 50%;
+  box-shadow: 0;
 }
 
 .timeline-text {
