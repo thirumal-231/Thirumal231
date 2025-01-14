@@ -1,1296 +1,557 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Thirumala Reddy - Unity Developer</title>
-
-  <!--
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./assets/images/MyImages/logo.ico" type="image/x-icon">
-
-  <!--
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
-
-  <!--
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-</head>
-
-<body>
-  <div id="particles-js"></div>
-
-  <!--
-    - #MAIN
-  -->
-
-  <main>
-
-    <!--
-      - #SIDEBAR
-    -->
-
-    <aside class="sidebar" data-sidebar>
-
-      <div class="sidebar-info">
-
-        <figure class="avatar-box">
-          <img src="./assets/images/my-avatar.png" alt="Thirumala Reddy" width="80">
-        </figure>
-
-        <div class="info-content">
-          <h1 class="name" title="Thirumala Reddy">Thirumala Reddy</h1>
-
-          <p class="title">Unity developer</p>
-        </div>
-
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
-
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
-
-      </div>
-
-      <div class="sidebar-info_more">
-
-        <div class="separator"></div>
-
-        <ul class="contacts-list">
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
-
-              <a href="mailto:o170231thiru@gmail.com" class="contact-link">o170231thiru@gmail.com</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
-
-              <a href="tel:+919182037368" class="contact-link">+91 91820 37368</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Birthday</p>
-
-              <time datetime="2001-04-06">April 06, 2002</time>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-
-              <address>Chennai, TamilNadu, India</address>
-            </div>
-
-          </li>
-
-        </ul>
-
-        <div class="separator"></div>
-
-        <ul class="social-list">
-
-          <li class="social-item">
-            <a href="https://github.com/thirumal-231" target="_blank" class="social-link">
-              <ion-icon name="logo-github"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://www.linkedin.com/in/thirumala231/" target="_blank" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://twitter.com/thirumal_0231" target="_blank" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="https://www.instagram.com/thirumal_231/" target="_blank" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-
-      </div>
-
-    </aside>
-
-
-
-
-
-    <!--
-      - #main-content
-    -->
-
-    <div class="main-content">
-
-      <!--
-        - #NAVBAR
-      -->
-
-      <nav class="navbar">
-
-        <ul class="navbar-list">
-          <li class="navbar-item">
-            <button class="navbar-link active" data-nav-link>Portfolio</button>
-          </li>
-
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link " data-nav-link>About</button>
-          </li>
-
-
-
-
-          <!-- <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
-          </li> -->
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
-          </li>
-
-        </ul>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thirumala Reddy | Node | MongoDB | Express</title>
+
+    <!-- boxicons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- header -->
+    <header class="active">
+      <a href="#" class="logo">Thirumal</a>
+      <i class="bx bx-menu" id="menu-icon"></i>
+      <nav>
+        <a href="#" class="active">Home</a>
+        <a href="#">Services</a>
+        <a href="#">Resume</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Contact</a>
       </nav>
-
-
-
-
-
-
-
-
-      <!--
-        - #PORTFOLIO
-      -->
-
-      <article class="portfolio active" data-page="portfolio">
-
-        <header>
-          <h2 class="h2 article-title">Portfolio</h2>
-        </header>
-
-        <section class="projects">
-
-          <!-- <ul class="filter-list">
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Game Development</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>AR/VR Development</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>3D Modelling</button>
-            </li>
-
-          </ul> -->
-
-          <div class="filter-select-box">
-
-            <button class="filter-selecta" data-select>
-
-              <!-- <div class="select-value" data-selecct-value>Select category</div> -->
-
-              <!-- <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div> -->
-
-            </button>
-
-            <!-- <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Game Development</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>AR/VR Development</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>3D Modelling</button>
-              </li>
-
-            </ul> -->
-
-          </div>
-
-
-
-          <ul class="project-list">
-
-            <li class="project-item  active" data-filter-item data-category="Game Development">
-              <a href="https://www.linkedin.com/posts/thirumala231_gamedevelopment-unity3d-csharp-activity-7223977497388888066-GwCP?utm_source=combined_share_message&utm_medium=member_desktop"
-                target="_blank">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/MyImages/KC.png" alt="Kitchen Chaos" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Kitchen Chaos</h3>
-
-                <p class="project-category">Unity | Intermediate | C#</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="Game Development">
-              <a href="https://youtu.be/jn_qTvqraZs?si=BeUOUhl0LCovxdas" target="_blank">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/RocketBoost.png" alt="Rocket Boost" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Rocket Boost</h3>
-
-                <p class="project-category">Unity | 3D | C#</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="Virtual Reality">
-              <a href=https://youtu.be/RPdv-tDYCpA?si=SlUhlgWODiVroAkf" target="_blank">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/MyImages/EscapeRoom.png" alt="Escape Room" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">VR Escape Room</h3>
-
-                <p class="project-category">Unity | C# | Virtual Reality</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="3D Modelling">
-              <a href="https://youtube.com/shorts/HLyiN1Dg9DI?si=DykgX8OLI_poSOrU" target="_blank">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/Blender.png" alt="Walk Cycle" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Walk Cycle</h3>
-
-                <p class="project-category">Blender | Animation</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="Game Development">
-              <a href="https://youtu.be/34qd9P6oUz0?si=I3NGvBdnud4eC2OV" target="_blank">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/TowerDefenceImage.png" alt="Tower Defence Game" loading="lazy">
-
-                </figure>
-
-                <h3 class="project-title">Tower Defence Game</h3>
-
-                <p class="project-category">Unity | 3D | C# | UI/UX</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="Unity">
-              <a href="https://youtu.be/Dzg8PK5bMk0?si=hNkRdtt0ANV7xKtk" target="_blank">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/Datsun.png" alt="Unity" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Cinematic Render</h3>
-
-                <p class="project-category">Unity | Blender | Cinematic Render</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="Game Development">
-              <a href="https://youtu.be/rU7cmwsJLss?si=_M_oI6_EY4JNk-fQ" target="_blank">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/combatSystem.png" alt="Combat System" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Combat System</h3>
-
-                <p class="project-category">Unity | 3D | Animation | C#</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="Augmented Reality">
-              <a href="https://youtube.com/shorts/4vm_QxaDuOw?si=yzFF9bJXIgpFo8nE" target="_blank">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/EnginAR.png" alt="EnginAR" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">EnginAR</h3>
-
-                <p class="project-category">AR | Unity | Vuforia | UI/UX</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="Game Development">
-              <a href="https://youtu.be/B9Fc1a-5R20?si=fSHg4SMOCGS__sT1" target="_blank">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/Astroids.png" alt="Astroids" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Astroids</h3>
-
-                <p class="project-category">Unity | 2D | Math | Physics</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="Game Development">
-              <a href="https://youtu.be/J4FXD5vAlNI?si=1D3BKY3NSKjg0uu3" target="_blank">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/DeliveryDriver.png" alt="Delivery Driver" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Delivery Driver</h3>
-
-                <p class="project-category">Unity | 2D | Game Design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="Game Development">
-              <a href="https://youtu.be/jfJGXrY9CNM?si=NXNVNCmThpM7Zt_2" target="_blank">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/RoadRunner.png" alt="RoadRunner" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">RoadRunner</h3>
-
-                <p class="project-category">Unity | 3D | Data persistence | Level design</p>
-
-              </a>
-            </li>
-
-
-
-
-
-
-
-
-
-            <li class="project-item  active" data-filter-item data-category="Game Development">
-              <a href="https://youtu.be/04UkHhKLTCk?si=hpWFrWv6N9SXnet4" target="_blank">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/TrafficEscape.png" alt="Traffic Escape" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Traffic Escape</h3>
-
-                <p class="project-category">Unity | 3D | Android | C#</p>
-
-              </a>
-            </li>
-
-
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-      <!--
-        - #RESUME
-      -->
-
-      <article class="resume" data-page="resume">
-
-        <header>
-          <h2 class="h2 article-title">Resume</h2>
-        </header>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Experience</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Novac Technology Solutions</h4>
-
-              <span>Unity Developer - Fulltime</span>
-              <span style="margin-bottom: 20px;">Aug 2024 - present</span>
-              <p><span class="dot"></span>Developed my first and last SparkAR 😄 game called RoadRunner</p>
-
-              <p><span class="dot"></span>Built conversational NPCs using convai for WebGL</p>
-
-              <p><span class="dot"></span>Assisted multiple Asian Paint stores across india to facilitate colorideas
-                VR installation</p>
-            </li>
-
-            <!-- <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Art director</h4>
-
-              <span>2013 — 2015</span>
-
-              <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
-              </p>
-
-            </li> -->
-
-            <!-- <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Web designer</h4>
-
-              <span>2010 — 2013</span>
-
-              <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
-              </p>
-
-            </li> -->
-
-          </ol>
-
-        </section>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Education</h3>
-          </div>
-
-          <ol class="timeline-list">
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">RGUKT Ongole</h4>
-
-              <span>Bachelors of Technology - 2023</span>
-
-              <p class="timeline-text">
-                Passed out as a mechanical engineer from Rajiv Gandhi University of Knowledge Technologies - Ongole
-                with 8.9 CGPA
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">ZPH School</h4>
-
-              <span>Secondary School</span>
-
-              <p class="timeline-text">
-                Studied in govt rural high school, passed with gpa of 10 and got admission into 6yr integrated btech
-                course in RGUKT Ongole
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-
-
-        <section class="skill">
-
-          <h3 class="h3 skills-title">My skills</h3>
-
-          <ul class="skills-list content-card">
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Game Development</h5>
-                <data value="85">85%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 85%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Blender</h5>
-                <data value="70">70%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 70%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">UI/UX</h5>
-                <data value="80">80%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">AR/VR Development</h5>
-                <data value="70">70%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 70%;"></div>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-      <!--
-        - #ABOUT
-      -->
-
-
-      <article class="about " data-page="about">
-
-        <header>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
-
-        <section class="about-text">
-          <p>
-            I am a seasoned Unity game developer with a passion for crafting immersive digital experiences. My journey
-            with Unity has taken me across diverse realms, from creating captivating 2D/3D games to delving into the
-            realms of VR/AR
-          </p>
-
-          <p>
-            I pride myself on delivering seamless, player-centric experiences. Game development is not just a career
-            for me; it's a canvas where I blend artistry and innovation. Whether it's tackling intricate coding
-            challenges or conceptualizing game mechanics, I approach each project with enthusiasm and a relentless
-            pursuit of excellence.
-          </p>
-        </section>
-
-
-        <!--
-          - service
-        -->
-
-        <section class="service">
-
-          <h3 class="h3 service-title">What i'm doing</h3>
-
-          <ul class="service-list">
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/MyImages/3dModelling.svg" alt="3dModelling icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">3D Modelling</h4>
-
-                <p class="service-item-text">
-                  Models made at a professional level with good topology in mind.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/MyImages/GameDevelopment.svg" alt="Game development icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Game Development</h4>
-
-                <p class="service-item-text">
-                  Development of games with proper use of design patterns.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/MyImages/ARVRDevelopment.svg" alt="AR/VR Development icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">AR/VR Development</h4>
-
-                <p class="service-item-text">
-                  Professional development of AR?VR experiences for iOS and Android.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/MyImages/UIUXIcon.svg" alt="UI/UX icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">UI/UX Design</h4>
-
-                <p class="service-item-text">
-                  Experienced in what creating designs that users find appealing.
-                </p>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-
-        <!--
-          - testimonials
-        -->
-
-        <!--         
-        <section class="testimonials">
-
-          <h3 class="h3 testimonials-title">Testimonials</h3>
-
-          <ul class="testimonials-list has-scrollbar">
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-1.png" alt="Jayabalachandran" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>JayaBalaChandran</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    "I was thoroughly impressed with Thirumala's coding prowess. Having reviewed his projects, I commends his exceptional skills and innovation. A truly talented and insightful developer."
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-4.png" alt="Aravind" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Aravind</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    From conceptualization to execution, Thirumala exhibited a remarkable grasp of game design principles, often exceeding expectations. Their commitment to refining their skills and embracing new ideas makes them an asset to any team.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-1.png" alt="Jayabalachandran" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>JayaBalaChandran</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    "I was thoroughly impressed with Thirumala's coding prowess. Having reviewed his projects, I commends his exceptional skills and innovation. A truly talented and insightful developer."
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-4.png" alt="Jessica miller" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Aravind</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    From conceptualization to execution, Thirumala exhibited a remarkable grasp of game design principles, often exceeding expectations. Their commitment to refining their skills and embracing new ideas makes them an asset to any team.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
-
-        </section> -->
-
-
-        <!--
-          - testimonials modal
-        -->
-
-        <div class="modal-container" data-modal-container>
-
-          <div class="overlay" data-overlay></div>
-
-          <section class="testimonials-modal">
-
-            <button class="modal-close-btn" data-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
-              </figure>
-
-              <img src="./assets/images/icon-quote.svg" alt="quote icon">
-            </div>
-
-            <div class="modal-content">
-
-              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
-
-              <time datetime="2023-12-14">14 December, 2023</time>
-
-              <div data-modal-text>
-                <p>
-                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                  lot of experience
-                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                  consectetur adipiscing
-                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                </p>
-              </div>
-
-            </div>
-
-          </section>
-
-        </div>
-
-
-        <!--
-          - clients
-        -->
-
-        <!-- <section class="clients">
-
-          <h3 class="h3 clients-title">Clients</h3>
-
-          <ul class="clients-list has-scrollbar">
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-1-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-2-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-3-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-4-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-5-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-6-color.png" alt="client logo">
-              </a>
-            </li>
-
-          </ul>
-
-        </section> -->
-
-      </article>
-
-
-
-
-
-
-
-      <!--
-        - #BLOG
-      -->
-
-      <!-- <article class="blog" data-page="blog">
-
-        <header>
-          <h2 class="h2 article-title">Blog</h2>
-        </header>
-
-        <section class="blog-posts">
-
-          <ul class="blog-posts-list">
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
-
-                  <p class="blog-text">
-                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
-
-                  <p class="blog-text">
-                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #80</h3>
-
-                  <p class="blog-text">
-                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
-
-                  <p class="blog-text">
-                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
-
-                  <p class="blog-text">
-                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #79</h3>
-
-                  <p class="blog-text">
-                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article> -->
-
-
-
-
-
-      <!--
-        - #CONTACT
-      -->
-
-      <article class="contact" data-page="contact">
-
-        <header>
-          <h2 class="h2 article-title">Contact</h2>
-        </header>
-
-        <section class="mapbox" data-mapbox>
-          <figure>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248756.13131228785!2d80.04419819043571!3d13.047473316234447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265ea4f7d3361%3A0x6e61a70b6863d433!2sChennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1710821476062!5m2!1sen!2sin"
-              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </figure>
-        </section>
-
-        <section class="contact-form">
-
-          <h3 class="h3 form-title">Contact Form</h3>
-
-          <form action="#" class="form" data-form>
-
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
-            </div>
-
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
-
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
-
-          </form>
-
-        </section>
-
-      </article>
-
+    </header>
+
+    <!-- bars background -->
+    <div class="bars-box active">
+      <div class="bar" style="--i: 6"></div>
+      <div class="bar" style="--i: 5"></div>
+      <div class="bar" style="--i: 4"></div>
+      <div class="bar" style="--i: 3"></div>
+      <div class="bar" style="--i: 2"></div>
+      <div class="bar" style="--i: 1"></div>
     </div>
 
-  </main>
+    <!-- home section -->
+    <section class="home active">
+      <div class="home-detail">
+        <h1>Thirumala Reddy</h1>
+        <h2>
+          I'm a
+          <span style="--i: 4" data-text="Engineer">Engineer</span>
+          <span style="--i: 3" data-text="Backend Developer"
+            >Backend Developer</span
+          >
+          <span style="--i: 2" data-text="Game Developer">Game Developer</span>
+          <span style="--i: 1" data-text="Node Developer">Node Developer</span>
+        </h2>
+        <p>
+          Dynamic engineer passionate about crafting immersive digital
+          experiences! 🎮💻 A versatile developer skilled in game design 🎯,
+          backend architecture 🛠️, and web development 🌐, blending creativity
+          🎨 and technical prowess 🧠 to deliver innovative solutions. From
+          captivating games 🎮 to robust web platforms 🚀, I thrive on building
+          impactful, scalable projects that bring ideas to life. ✨
+        </p>
+        <div class="btn-sci">
+          <a href="#" class="btn">Download Resume</a>
+          <div class="sci">
+            <a href="https://github.com/thirumal-231" target="_blank"
+              ><i class="bx bxl-github"></i
+            ></a>
+            <a href="https://www.linkedin.com/in/thirumala231/" target="_blank"
+              ><i class="bx bxl-linkedin"></i
+            ></a>
+            <a
+              href="https://youtube.com/@thirumal-231?si=ZmBMxy60PA53MjCz"
+              target="_blank"
+              ><i class="bx bxl-youtube"></i
+            ></a>
+            <a href="https://www.instagram.com/thirumal_231/" target="_blank"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+          </div>
+        </div>
+      </div>
 
+      <div class="home-img">
+        <div class="img-box">
+          <div class="img-item">
+            <img src="./images/home.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!-- services section -->
+    <section class="services">
+      <h2 class="heading">My <span>Services</span></h2>
+      <div class="services-container">
+        <div class="services-box">
+          <div class="icon">
+            <i class="bx bx-code-alt"></i>
+            <a href="#"><i class="bx bx-arrow-back"></i></a>
+          </div>
+          <h3>Web development</h3>
+          <p>
+            Building responsive, user-friendly websites that combine
+            functionality and aesthetics. I provide full-stack development
+            services, crafting solutions tailored to your unique needs.
+          </p>
+        </div>
+        <div class="services-box">
+          <div class="icon">
+            <i class="fas fa-vr-cardboard"></i>
+            <a href="#"><i class="bx bx-arrow-back"></i></a>
+          </div>
+          <h3>AR/VR development</h3>
+          <p>
+            Revolutionizing user experiences with cutting-edge Augmented and
+            Virtual Reality solutions. From interactive AR apps to immersive VR
+            environments, I create worlds that push the boundaries of
+            innovation.
+          </p>
+        </div>
+        <div class="services-box">
+          <div class="icon">
+            <i class="bx bx-dice-5"></i>
+            <a href="#"><i class="bx bx-arrow-back"></i></a>
+          </div>
+          <h3>Game development</h3>
+          <p>
+            Transforming ideas into engaging and immersive games! I specialize
+            in developing 2D, 3D, and multiplayer games with a strong focus on
+            clean code, smooth mechanics, and captivating gameplay.
+          </p>
+        </div>
+        <div class="services-box">
+          <div class="icon">
+            <i class="bx bx-cube"></i>
+            <a href="#"><i class="bx bx-arrow-back"></i></a>
+          </div>
+          <h3>3D Modelling</h3>
+          <p>
+            Bringing creativity to life with detailed 3D models and animations.
+            Whether it's characters, environments, or objects, I ensure every
+            element stands out with precision and realism.
+          </p>
+        </div>
+      </div>
+    </section>
 
+    <!-- resume section -->
+    <section class="resume">
+      <div class="resume-container">
+        <div class="resume-box">
+          <h2>Why Hire me?</h2>
+          <p class="desc">
+            Cause i am highly versatile, efficient, hardworking, talented go-to
+            guy when it comes to developing games or web apps
+          </p>
+          <button class="resume-btn active">Experience</button>
+          <button class="resume-btn">Education</button>
+          <button class="resume-btn">Skills</button>
+          <button class="resume-btn">About Me</button>
+        </div>
+        <div class="resume-box">
+          <div class="resume-detail experience active">
+            <h2 class="heading">My <span>Experience</span></h2>
+            <p class="desc">Please have alook at my experience below</p>
+            <div class="resume-list">
+              <div class="resume-item">
+                <p class="year">Aug 2024 - Present</p>
+                <h3>Unity Developer</h3>
+                <p class="company">Novac Technology Solutions (p) LTD.</p>
+                <p>
+                  • Developed my first and last Spark 😜 AR game called Road
+                  Runner <br />• Built conversional NPCs using convai for WebGL
+                  <br />• Assisted multiple Asian Paint stores across India to
+                  facilitate colour ideas VR installation <br />• Experience in
+                  mass managing VR devices remotely with various MDMs such as
+                  ArborXR, ManageXR <br />• Had a hands-on experience creating
+                  immersive experiences with Sony Spatial Reality Display
+                </p>
+              </div>
+              <div class="resume-item">
+                <p class="year">July 2024 - Present</p>
+                <h3>Founder</h3>
+                <p class="company">Tru Studios</p>
+                <p>
+                  • Operations have not been started yet <br />• Planning to
+                  start launch games
+                </p>
+              </div>
+              <div class="resume-item">
+                <p class="year">June 2024 - July 2024</p>
+                <h3>Unity Developer</h3>
+                <p class="company">DigAmenD Technology Solutions.</p>
+                <p>
+                  • Worked here as a game developer <br />• Been part of
+                  development a game called Supreme Rangale
+                </p>
+              </div>
+              <div class="resume-item">
+                <p class="year">Dec 2024 - May 2024</p>
+                <h3>Unity Developer</h3>
+                <p class="company">Madras Mind Works (p) LTD.</p>
+                <p>
+                  • Completed my internship here in AR/VR <br />• Designed and
+                  developed a VR game called Scary Night
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="resume-detail education">
+            <h2 class="heading">My <span>Education</span></h2>
+            <p class="desc">
+              Completed my Mechanical Engineering in 2023. but learning new
+              things almost everyday
+            </p>
+            <div class="resume-list">
+              <div class="resume-item">
+                <p class="year">2025</p>
+                <h3>Backend Development Bootcamp (40hr)</h3>
+                <p class="company">Online course</p>
+                <p>
+                  Completed course and developed a full fleged Backend server
+                  side rendered web app
+                </p>
+              </div>
+              <div class="resume-item">
+                <p class="year">2019 - 2023</p>
+                <h3>Bachelors in Technology</h3>
+                <p class="company">RGUKT Ongole</p>
+                <p>Did my BTech in Mechanical Engineering here</p>
+              </div>
+              <div class="resume-item">
+                <p class="year">2017 - 2019</p>
+                <h3>Pre-University Course</h3>
+                <p class="company">RGUKT Ongole</p>
+                <p>Completed my +2 here in Maths, Physics, Chemistry</p>
+              </div>
+            </div>
+          </div>
+          <div class="resume-detail skills">
+            <h2 class="heading">My <span>Skills</span></h2>
+            <p class="desc">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam
+              fugit necessitatibus beatae quasi quaerat quam delectus hic sint
+              quae repellendus, modi sit illum sequi soluta quis debitis
+              repudiandae ipsa ea!
+            </p>
+            <div class="resume-list">
+              <div class="resume-item">
+                <i class="bx bxl-html5"></i>
+                <span>HTML</span>
+              </div>
+              <div class="resume-item">
+                <i class="bx bxl-css3"></i>
+                <span>CSS</span>
+              </div>
+              <div class="resume-item">
+                <i class="bx bxl-tailwind-css"></i>
+                <span>TailwindCSS</span>
+              </div>
+              <div class="resume-item">
+                <i class="bx bxl-javascript"></i>
+                <span>JavaScript</span>
+              </div>
+              <div class="resume-item">
+                <i class="bx bxl-nodejs"></i>
+                <span>Node.js</span>
+              </div>
+              <div class="resume-item">
+                <i class="fas fa-express">Ex</i>
+                <span>Express.js</span>
+              </div>
+              <div class="resume-item">
+                <i class="bx bxl-mongodb"></i>
+                <span>MongoDB</span>
+              </div>
+              <div class="resume-item">
+                <i class="bx bxl-react"></i>
+                <span>React.js</span>
+              </div>
+              <div class="resume-item">
+                <i class="bx bxl-git"></i>
+                <span>Git</span>
+              </div>
+              <div class="resume-item">
+                <i class="bx bxl-unity"></i>
+                <span>Unity</span>
+              </div>
+            </div>
+          </div>
+          <div class="resume-detail about">
+            <h2 class="heading">About <span>Me</span></h2>
+            <p class="desc">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam
+              fugit necessitatibus beatae quasi quaerat quam delectus hic sint
+              quae repellendus, modi sit illum sequi soluta quis debitis
+              repudiandae ipsa ea!
+            </p>
+            <div class="resume-list">
+              <div class="resume-item">
+                <p>Name <span>Thirumala Reddy</span></p>
+              </div>
+              <div class="resume-item">
+                <p>Gender <span>Male</span></p>
+              </div>
+              <div class="resume-item">
+                <p>Age <span>22 years old</span></p>
+              </div>
+              <div class="resume-item">
+                <p>Marital status <span>Unmarried</span></p>
+              </div>
+              <div class="resume-item">
+                <p>City <span>Chennai</span></p>
+              </div>
+              <div class="resume-item">
+                <p>Nationality <span>Indian</span></p>
+              </div>
+              <div class="resume-item">
+                <p>Experience <span>6+ months</span></p>
+              </div>
+              <div class="resume-item">
+                <p>Fulltime <span>Available</span></p>
+              </div>
+              <div class="resume-item">
+                <p>Freelance <span>Available</span></p>
+              </div>
+              <div class="resume-item">
+                <p>Phone <span>+91 91820 37368</span></p>
+              </div>
+              <div class="resume-item">
+                <p>Email <span>o170231thiru@gmail.com</span></p>
+              </div>
+              <div class="resume-item">
+                <p>Languages <span>English, Hindi, Telugu</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!-- portfolio section -->
+    <section class="portfolio">
+      <h2 class="heading">Latest <span>Project</span></h2>
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <div class="portfolio-detail active">
+            <p class="numb">01</p>
+            <h3>Frontend Project</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus
+              nam aliquid labore vero mollitia nesciunt.
+            </p>
+            <div class="tech">
+              <p>HTML, CSS, JavaScript</p>
+            </div>
+            <div class="live-github">
+              <a href="#"
+                ><i class="bx bx-arrow-back"></i><span>Live Project</span></a
+              >
+              <a href="#"
+                ><i class="bx bxl-github"></i><span>Github Repository</span></a
+              >
+            </div>
+          </div>
+          <div class="portfolio-detail">
+            <p class="numb">02</p>
+            <h3>Backend Project</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus
+              nam aliquid labore vero mollitia nesciunt.
+            </p>
+            <div class="tech">
+              <p>HTML, CSS, JavaScript</p>
+            </div>
+            <div class="live-github">
+              <a href="#"
+                ><i class="bx bx-arrow-back"></i><span>Live Project</span></a
+              >
+              <a href="#"
+                ><i class="bx bxl-github"></i><span>Github Repository</span></a
+              >
+            </div>
+          </div>
+          <div class="portfolio-detail">
+            <p class="numb">03</p>
+            <h3>Frontend Project</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus
+              nam aliquid labore vero mollitia nesciunt.
+            </p>
+            <div class="tech">
+              <p>HTML, CSS, JavaScript</p>
+            </div>
+            <div class="live-github">
+              <a href="#"
+                ><i class="bx bx-arrow-back"></i><span>Live Project</span></a
+              >
+              <a href="#"
+                ><i class="bx bxl-github"></i><span>Github Repository</span></a
+              >
+            </div>
+          </div>
+          <div class="portfolio-detail">
+            <p class="numb">04</p>
+            <h3>Backend Project</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus
+              nam aliquid labore vero mollitia nesciunt.
+            </p>
+            <div class="tech">
+              <p>HTML, CSS, JavaScript</p>
+            </div>
+            <div class="live-github">
+              <a href="#"
+                ><i class="bx bx-arrow-back"></i><span>Live Project</span></a
+              >
+              <a href="#"
+                ><i class="bx bxl-github"></i><span>Github Repository</span></a
+              >
+            </div>
+          </div>
+          <div class="portfolio-detail">
+            <p class="numb">05</p>
+            <h3>Frontend Project</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus
+              nam aliquid labore vero mollitia nesciunt.
+            </p>
+            <div class="tech">
+              <p>HTML, CSS, JavaScript</p>
+            </div>
+            <div class="live-github">
+              <a href="#"
+                ><i class="bx bx-arrow-back"></i><span>Live Project</span></a
+              >
+              <a href="#"
+                ><i class="bx bxl-github"></i><span>Github Repository</span></a
+              >
+            </div>
+          </div>
+          <div class="portfolio-detail">
+            <p class="numb">06</p>
+            <h3>Backend Project</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus
+              nam aliquid labore vero mollitia nesciunt.
+            </p>
+            <div class="tech">
+              <p>HTML, CSS, JavaScript</p>
+            </div>
+            <div class="live-github">
+              <a href="#"
+                ><i class="bx bx-arrow-back"></i><span>Live Project</span></a
+              >
+              <a href="#"
+                ><i class="bx bxl-github"></i><span>Github Repository</span></a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <div class="portfolio-carousal">
+            <div class="img-slide">
+              <div class="img-item">
+                <img src="./images/portfolio1.jpg" alt="" />
+              </div>
+              <div class="img-item">
+                <img src="./images/portfolio2.jpg" alt="" />
+              </div>
+              <div class="img-item">
+                <img src="./images/portfolio3.jpg" alt="" />
+              </div>
+              <div class="img-item">
+                <img src="./images/portfolio4.jpg" alt="" />
+              </div>
+              <div class="img-item">
+                <img src="./images/portfolio5.jpg" alt="" />
+              </div>
+              <div class="img-item">
+                <img src="./images/portfolio6.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="navigation">
+            <button class="arrow-left disabled">
+              <i class="bx bx-chevron-left"></i>
+            </button>
+            <button class="arrow-right">
+              <i class="bx bx-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!-- contact section -->
+    <section class="contact">
+      <div class="contact-container">
+        <div class="contact-box">
+          <h2>Let's Work Together</h2>
+          <p>Have an idea in mind, want to make it reality?</p>
+          <div class="contact-detail">
+            <i class="bx bxs-phone"></i>
+            <div class="detail">
+              <p>Phone</p>
+              <p>+91 91820 37368</p>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <i class="bx bx-envelope"></i>
+            <div class="detail">
+              <p>Email</p>
+              <p>o170231thiru@gmail.com</p>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <i class="bx bxs-map"></i>
+            <div class="detail">
+              <p>Address</p>
+              <p>Chennai, TN, IN</p>
+            </div>
+          </div>
+        </div>
+        <div class="contact-box">
+          <form action="">
+            <h2 class="heading">Contact <span>Me!</span></h2>
+            <div class="field-box">
+              <input type="text" placeholder="Full Name" required />
+              <input type="email" placeholder="Email Address" required />
+              <input type="text" placeholder="Phone Number" required />
+              <input type="text" placeholder="Email Subject" required />
+              <textarea
+                name=""
+                id=""
+                placeholder="Your Message"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
 
-  <!--
-    - custom js link
-  -->
-  <script src="./assets/js/script.js"></script>
-
-  <!--
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-  </script>
-  <script src="./particles.js-master/particles.js"></script>
-  <script src="./particles.js-master/demo/js/app.js"></script>
-</body>
-
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+  </body>
 </html>
