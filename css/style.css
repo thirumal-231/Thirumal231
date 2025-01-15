@@ -863,7 +863,7 @@ section.active {
   .resume-container,
   .portfolio-container,
   .contact-container {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
   }
 
   .resume-container {
@@ -892,6 +892,15 @@ section.active {
 @media screen and (max-width: 450px) {
   html {
     font-size: 50%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .resume-container {
+    grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+  }
+  .resume-detail .resume-list {
+    grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
   }
 }
 
