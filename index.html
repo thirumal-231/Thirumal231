@@ -28,10 +28,11 @@
       <a href="#" class="logo">Thirumal</a>
       <i class="bx bx-menu" id="menu-icon"></i>
       <nav>
-        <a href="#" class="active">Home</a>
+        <!-- About and home are same -->
+        <a href="#">About</a>
         <a href="#">Services</a>
         <a href="#">Resume</a>
-        <a href="#">Portfolio</a>
+        <a href="#" class="active">Portfolio</a>
         <a href="#">Contact</a>
       </nav>
     </header>
@@ -47,7 +48,7 @@
     </div>
 
     <!-- home section -->
-    <section class="home active">
+    <section class="home">
       <div class="home-detail">
         <h1>Thirumala Reddy</h1>
         <h2>
@@ -348,7 +349,7 @@
     </section>
 
     <!-- portfolio section -->
-    <section class="portfolio">
+    <section class="portfolio active">
       <h2 class="heading">Latest <span>Project</span></h2>
       <div class="portfolio-container">
         <div class="portfolio-box">
@@ -356,8 +357,10 @@
             <p class="numb">01</p>
             <h3>Pomodoro Timer</h3>
             <p>
-              Time management pomodoro clock for all of your tasks, start the
-              timer and complete all of your tasks.
+              • 👀 Saw this somewhere online so i recreated it as a practice<br />•
+              🛠️ Used JavaScript, HTML, and CSS <br />• 📱Yes it is fully
+              responsive and<br />• ⏱️ Yes timers timer cycle is working
+              correctly one after the other 🚀
             </p>
             <div class="tech">
               <p>HTML, CSS, JavaScript</p>
@@ -373,43 +376,53 @@
           </div>
           <div class="portfolio-detail">
             <p class="numb">02</p>
-            <h3>Backend Project</h3>
+            <h3>Tru Do</h3>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus
-              nam aliquid labore vero mollitia nesciunt.
+              • 🎉 This is my first succesful CRUD implemented app<br />• 🗂️ I
+              used MongoDB for database<br />• ✅ you can CREATE, READ, UPDATE,
+              DELETE todo<br />• 🤖 Utilised ChatGPT for TailwindCSS styling<br />•
+              🌐 Server side rendering with EJS
             </p>
             <div class="tech">
-              <p>HTML, CSS, JavaScript</p>
+              <p>Node, Express, MongoDB, TailwindCSS</p>
             </div>
             <div class="live-github">
-              <a href="#"
+              <a
+                href="https://drive.google.com/file/d/1Gyc9UULRo7x1VoWul6_1h9rXpMuEgau0/view"
+                target="_blank"
                 ><i class="bx bx-arrow-back"></i><span>Live Project</span></a
               >
-              <a href="#"
+              <a href="https://github.com/thirumal-231/Tru-Do" target="_blank"
                 ><i class="bx bxl-github"></i><span>Github Repository</span></a
               >
             </div>
           </div>
           <div class="portfolio-detail">
             <p class="numb">03</p>
-            <h3>Frontend Project</h3>
+            <h3>QR code generator</h3>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus
-              nam aliquid labore vero mollitia nesciunt.
+              • 🏗️ This is a very basic QR code generator app<br />• 📦 Used
+              express and qr-image packages<br />• 🖼️ generate qr codes as png
+              images<br />• 🤖 Utilised ChatGPT for CSS styling<br />• 🌐 Used
+              EJS for templating
             </p>
             <div class="tech">
-              <p>HTML, CSS, JavaScript</p>
+              <p>Node, Express, qr-image</p>
             </div>
             <div class="live-github">
-              <a href="#"
+              <a
+                href="https://drive.google.com/file/d/11ter60jGw5INCka1iZX6Bggk-3EpkxsA/view?usp=drive_link"
+                target="_blank"
                 ><i class="bx bx-arrow-back"></i><span>Live Project</span></a
               >
-              <a href="#"
+              <a
+                href="https://github.com/thirumal-231/qr-code-generator"
+                target="_blank"
                 ><i class="bx bxl-github"></i><span>Github Repository</span></a
               >
             </div>
           </div>
-          <div class="portfolio-detail">
+          <!-- <div class="portfolio-detail">
             <p class="numb">04</p>
             <h3>Backend Project</h3>
             <p>
@@ -427,8 +440,8 @@
                 ><i class="bx bxl-github"></i><span>Github Repository</span></a
               >
             </div>
-          </div>
-          <div class="portfolio-detail">
+          </div> -->
+          <!-- <div class="portfolio-detail">
             <p class="numb">05</p>
             <h3>Frontend Project</h3>
             <p>
@@ -446,8 +459,8 @@
                 ><i class="bx bxl-github"></i><span>Github Repository</span></a
               >
             </div>
-          </div>
-          <div class="portfolio-detail">
+          </div> -->
+          <!-- <div class="portfolio-detail">
             <p class="numb">06</p>
             <h3>Backend Project</h3>
             <p>
@@ -465,29 +478,29 @@
                 ><i class="bx bxl-github"></i><span>Github Repository</span></a
               >
             </div>
-          </div>
+          </div> -->
         </div>
         <div class="portfolio-box">
           <div class="portfolio-carousal">
             <div class="img-slide">
               <div class="img-item">
-                <img src="./images/portfolio1.jpg" alt="" />
+                <img src="./images/trupomodoro.gif" alt="" />
               </div>
               <div class="img-item">
-                <img src="./images/portfolio2.jpg" alt="" />
+                <img src="./images/tru-do.gif" alt="" />
               </div>
               <div class="img-item">
-                <img src="./images/portfolio3.jpg" alt="" />
+                <img src="./images/qrcodegenerator.gif" alt="" />
               </div>
-              <div class="img-item">
+              <!-- <div class="img-item">
                 <img src="./images/portfolio4.jpg" alt="" />
-              </div>
-              <div class="img-item">
+              </div> -->
+              <!-- <div class="img-item">
                 <img src="./images/portfolio5.jpg" alt="" />
-              </div>
-              <div class="img-item">
+              </div> -->
+              <!-- <div class="img-item">
                 <img src="./images/portfolio6.jpg" alt="" />
-              </div>
+              </div> -->
             </div>
           </div>
           <div class="navigation">
