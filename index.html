@@ -1,626 +1,555 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Thirumala Reddy | Node | MongoDB | Express</title>
 
-    <!-- boxicons -->
-    <link
-      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <!-- custom css -->
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thirumala Reddy | Node | MongoDB | Express</title>
 
-  <body>
-    <!-- header -->
-    <header class="active">
-      <a href="#" class="logo">Thirumal</a>
-      <i class="bx bx-menu" id="menu-icon"></i>
-      <nav>
-        <!-- About and home are same -->
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Resume</a>
-        <a href="#" class="active">Portfolio</a>
-        <a href="#">Contact</a>
-      </nav>
-    </header>
+  <!-- boxicons -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- custom css -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
 
-    <!-- bars background -->
-    <div class="bars-box active">
-      <div class="bar" style="--i: 6"></div>
-      <div class="bar" style="--i: 5"></div>
-      <div class="bar" style="--i: 4"></div>
-      <div class="bar" style="--i: 3"></div>
-      <div class="bar" style="--i: 2"></div>
-      <div class="bar" style="--i: 1"></div>
+<body>
+  <!-- header -->
+  <header class="active">
+    <a href="#" class="logo">Thirumal</a>
+    <i class="bx bx-menu" id="menu-icon"></i>
+    <nav>
+      <!-- About and home are same -->
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Resume</a>
+      <a href="#" class="active">Portfolio</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <!-- bars background -->
+  <div class="bars-box active">
+    <div class="bar" style="--i: 6"></div>
+    <div class="bar" style="--i: 5"></div>
+    <div class="bar" style="--i: 4"></div>
+    <div class="bar" style="--i: 3"></div>
+    <div class="bar" style="--i: 2"></div>
+    <div class="bar" style="--i: 1"></div>
+  </div>
+
+  <!-- home section -->
+  <section class="home">
+    <div class="home-detail">
+      <h1>Thirumala Reddy</h1>
+      <h2>
+        I'm a
+        <span style="--i: 4" data-text="Engineer">Engineer</span>
+        <span style="--i: 3" data-text="Backend Developer">Backend Developer</span>
+        <span style="--i: 2" data-text="Game Developer">Game Developer</span>
+        <span style="--i: 1" data-text="Node Developer">Node Developer</span>
+      </h2>
+      <p>
+        Full Stack Developer with 2+ years of production experience building RESTful APIs, RBAC
+        systems, and scalable Node.js/Express backends. Proficient in PostgreSQL, MongoDB, React,
+        and AWS. Delivered centralized role management reducing operational overhead across multiple
+        client workflows. Built TruKanban — a real-time collaborative Kanban app using Node.js,
+        PostgreSQL, React, Socket.io, and TanStack Query.
+      </p>
+      <div class="btn-sci">
+        <a href="https://drive.google.com/file/d/1wlNm5kJ0lpw0COMQcbmNh4tqxD2-kKia/view?usp=drive_link" target="_blank"
+          class="btn">Download Resume</a>
+        <div class="sci">
+          <a href="https://github.com/thirumal-231" target="_blank"><i class="bx bxl-github"></i></a>
+          <a href="https://www.linkedin.com/in/thirumala231/" target="_blank"><i class="bx bxl-linkedin"></i></a>
+          <a href="https://youtube.com/@thirumal-231?si=ZmBMxy60PA53MjCz" target="_blank"><i
+              class="bx bxl-youtube"></i></a>
+          <a href="https://www.instagram.com/thirumal_231/" target="_blank"><i class="bx bxl-instagram"></i></a>
+        </div>
+      </div>
     </div>
 
-    <!-- home section -->
-    <section class="home">
-      <div class="home-detail">
-        <h1>Thirumala Reddy</h1>
-        <h2>
-          I'm a
-          <span style="--i: 4" data-text="Engineer">Engineer</span>
-          <span style="--i: 3" data-text="Backend Developer"
-            >Backend Developer</span
-          >
-          <span style="--i: 2" data-text="Game Developer">Game Developer</span>
-          <span style="--i: 1" data-text="Node Developer">Node Developer</span>
-        </h2>
+    <div class="home-img">
+      <div class="img-box">
+        <div class="img-item">
+          <img src="./images/home.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- services section -->
+  <section class="services">
+    <h2 class="heading">My <span>Services</span></h2>
+    <div class="services-container">
+      <div class="services-box">
+        <div class="icon">
+          <i class="bx bx-code-alt"></i>
+          <a href="#"><i class="bx bx-arrow-back"></i></a>
+        </div>
+        <h3>Web development</h3>
         <p>
-          Dynamic engineer passionate about crafting immersive digital
-          experiences! 🎮💻 A versatile developer skilled in game design 🎯,
-          backend architecture 🛠️, and web development 🌐, blending creativity
-          🎨 and technical prowess 🧠 to deliver innovative solutions. From
-          captivating games 🎮 to robust web platforms 🚀, I thrive on building
-          impactful, scalable projects that bring ideas to life. ✨
+          Building responsive, user-friendly websites that combine
+          functionality and aesthetics. I provide full-stack development
+          services, crafting solutions tailored to your unique needs.
         </p>
-        <div class="btn-sci">
-          <a
-            href="https://drive.google.com/file/d/1wlNm5kJ0lpw0COMQcbmNh4tqxD2-kKia/view?usp=drive_link"
-            target="_blank"
-            class="btn"
-            >Download Resume</a
-          >
-          <div class="sci">
-            <a href="https://github.com/thirumal-231" target="_blank"
-              ><i class="bx bxl-github"></i
-            ></a>
-            <a href="https://www.linkedin.com/in/thirumala231/" target="_blank"
-              ><i class="bx bxl-linkedin"></i
-            ></a>
-            <a
-              href="https://youtube.com/@thirumal-231?si=ZmBMxy60PA53MjCz"
-              target="_blank"
-              ><i class="bx bxl-youtube"></i
-            ></a>
-            <a href="https://www.instagram.com/thirumal_231/" target="_blank"
-              ><i class="bx bxl-instagram"></i
-            ></a>
-          </div>
-        </div>
       </div>
-
-      <div class="home-img">
-        <div class="img-box">
-          <div class="img-item">
-            <img src="./images/home.png" alt="" />
-          </div>
+      <div class="services-box">
+        <div class="icon">
+          <i class="fas fa-vr-cardboard"></i>
+          <a href="#"><i class="bx bx-arrow-back"></i></a>
         </div>
+        <h3>AR/VR development</h3>
+        <p>
+          Revolutionizing user experiences with cutting-edge Augmented and
+          Virtual Reality solutions. From interactive AR apps to immersive VR
+          environments, I create worlds that push the boundaries of
+          innovation.
+        </p>
       </div>
-    </section>
-
-    <!-- services section -->
-    <section class="services">
-      <h2 class="heading">My <span>Services</span></h2>
-      <div class="services-container">
-        <div class="services-box">
-          <div class="icon">
-            <i class="bx bx-code-alt"></i>
-            <a href="#"><i class="bx bx-arrow-back"></i></a>
-          </div>
-          <h3>Web development</h3>
-          <p>
-            Building responsive, user-friendly websites that combine
-            functionality and aesthetics. I provide full-stack development
-            services, crafting solutions tailored to your unique needs.
-          </p>
+      <div class="services-box">
+        <div class="icon">
+          <i class="bx bx-dice-5"></i>
+          <a href="#"><i class="bx bx-arrow-back"></i></a>
         </div>
-        <div class="services-box">
-          <div class="icon">
-            <i class="fas fa-vr-cardboard"></i>
-            <a href="#"><i class="bx bx-arrow-back"></i></a>
-          </div>
-          <h3>AR/VR development</h3>
-          <p>
-            Revolutionizing user experiences with cutting-edge Augmented and
-            Virtual Reality solutions. From interactive AR apps to immersive VR
-            environments, I create worlds that push the boundaries of
-            innovation.
-          </p>
-        </div>
-        <div class="services-box">
-          <div class="icon">
-            <i class="bx bx-dice-5"></i>
-            <a href="#"><i class="bx bx-arrow-back"></i></a>
-          </div>
-          <h3>Game development</h3>
-          <p>
-            Transforming ideas into engaging and immersive games! I specialize
-            in developing 2D, 3D, and multiplayer games with a strong focus on
-            clean code, smooth mechanics, and captivating gameplay.
-          </p>
-        </div>
-        <div class="services-box">
-          <div class="icon">
-            <i class="bx bx-cube"></i>
-            <a href="#"><i class="bx bx-arrow-back"></i></a>
-          </div>
-          <h3>3D Modelling</h3>
-          <p>
-            Bringing creativity to life with detailed 3D models and animations.
-            Whether it's characters, environments, or objects, I ensure every
-            element stands out with precision and realism.
-          </p>
-        </div>
+        <h3>Game development</h3>
+        <p>
+          Transforming ideas into engaging and immersive games! I specialize
+          in developing 2D, 3D, and multiplayer games with a strong focus on
+          clean code, smooth mechanics, and captivating gameplay.
+        </p>
       </div>
-    </section>
+      <div class="services-box">
+        <div class="icon">
+          <i class="bx bx-cube"></i>
+          <a href="#"><i class="bx bx-arrow-back"></i></a>
+        </div>
+        <h3>3D Modelling</h3>
+        <p>
+          Bringing creativity to life with detailed 3D models and animations.
+          Whether it's characters, environments, or objects, I ensure every
+          element stands out with precision and realism.
+        </p>
+      </div>
+    </div>
+  </section>
 
-    <!-- resume section -->
-    <section class="resume">
-      <div class="resume-container">
-        <div class="resume-box">
-          <h2>Why Hire me?</h2>
+  <!-- resume section -->
+  <section class="resume">
+    <div class="resume-container">
+      <div class="resume-box">
+        <h2>Why Hire me?</h2>
+        <p class="desc">
+          Cause i am highly versatile, efficient, hardworking, talented go-to
+          guy when it comes to developing games or web apps
+        </p>
+        <button class="resume-btn active">Experience</button>
+        <button class="resume-btn">Education</button>
+        <button class="resume-btn">Skills</button>
+        <button class="resume-btn">About Me</button>
+      </div>
+      <div class="resume-box">
+        <div class="resume-detail experience active">
+          <h2 class="heading">My <span>Experience</span></h2>
+          <p class="desc">Please have alook at my experience below</p>
+          <div class="resume-list">
+            <div class="resume-item">
+              <p class="year">Aug 2024 - Present</p>
+              <h3>Associate Developer</h3>
+              <p class="company">Novac Technology Solutions (p) LTD.</p>
+              <p>
+                ● Consolidated Infrastructure Management by centralizing 5 servers and 25+ linked
+                projects into a single React-based single-page application, reducing manual
+                infrastructure tracking time by 65%.<br />
+                ● Enhanced system security by implementing strict role-based access control
+                (SuperAdmin, Admin, User, Guest) for 20+ users, and utilizing CryptoJS symmetric
+                encryption to secure 50+ sensitive server passwords and database URLs<br />
+                ● Streamlined team knowledge sharing by developing a centralized demonstration and file
+                management module, housing 30+ project demo videos and accelerating resource
+                retrieval times for internal teams by 60%.
+              </p>
+            </div>
+            <!-- <div class="resume-item">
+              <p class="year">July 2024 - Present</p>
+              <h3>Founder</h3>
+              <p class="company">Tru Studios</p>
+              <p>
+                • Operations have not been started yet <br />• Planning to
+                start launch games
+              </p>
+            </div> -->
+            <!-- <div class="resume-item">
+              <p class="year">June 2024 - July 2024</p>
+              <h3>Unity Developer</h3>
+              <p class="company">DigAmenD Technology Solutions.</p>
+              <p>
+                • Worked here as a game developer <br />• Been part of
+                development a game called Supreme Rangale
+              </p>
+            </div>
+            <div class="resume-item">
+              <p class="year">Dec 2024 - May 2024</p>
+              <h3>Unity Developer</h3>
+              <p class="company">Madras Mind Works (p) LTD.</p>
+              <p>
+                • Completed my internship here in AR/VR <br />• Designed and
+                developed a VR game called Scary Night
+              </p>
+            </div> -->
+          </div>
+        </div>
+        <div class="resume-detail education">
+          <h2 class="heading">My <span>Education</span></h2>
           <p class="desc">
-            Cause i am highly versatile, efficient, hardworking, talented go-to
-            guy when it comes to developing games or web apps
+            Completed my Mechanical Engineering in 2023. but learning new
+            things almost everyday
           </p>
-          <button class="resume-btn active">Experience</button>
-          <button class="resume-btn">Education</button>
-          <button class="resume-btn">Skills</button>
-          <button class="resume-btn">About Me</button>
+          <div class="resume-list">
+            <div class="resume-item">
+              <p class="year">2025</p>
+              <h3>Backend Development Bootcamp (40hr)</h3>
+              <p class="company">Online course</p>
+              <p>
+                Completed course and developed a full fleged Backend server
+                side rendered web app
+              </p>
+            </div>
+            <div class="resume-item">
+              <p class="year">2019 - 2023</p>
+              <h3>Bachelors in Technology</h3>
+              <p class="company">RGUKT Ongole</p>
+              <p>Did my BTech in Mechanical Engineering here</p>
+            </div>
+            <div class="resume-item">
+              <p class="year">2017 - 2019</p>
+              <h3>Pre-University Course</h3>
+              <p class="company">RGUKT Ongole</p>
+              <p>Completed my +2 here in Maths, Physics, Chemistry</p>
+            </div>
+          </div>
         </div>
-        <div class="resume-box">
-          <div class="resume-detail experience active">
-            <h2 class="heading">My <span>Experience</span></h2>
-            <p class="desc">Please have alook at my experience below</p>
-            <div class="resume-list">
-              <div class="resume-item">
-                <p class="year">Aug 2024 - Present</p>
-                <h3>Unity Developer</h3>
-                <p class="company">Novac Technology Solutions (p) LTD.</p>
-                <p>
-                  • Developed my first and last Spark 😜 AR game called Road
-                  Runner <br />• Built conversional NPCs using convai for WebGL
-                  <br />• Assisted multiple Asian Paint stores across India to
-                  facilitate colour ideas VR installation <br />• Experience in
-                  mass managing VR devices remotely with various MDMs such as
-                  ArborXR, ManageXR <br />• Had a hands-on experience creating
-                  immersive experiences with Sony Spatial Reality Display
-                </p>
-              </div>
-              <div class="resume-item">
-                <p class="year">July 2024 - Present</p>
-                <h3>Founder</h3>
-                <p class="company">Tru Studios</p>
-                <p>
-                  • Operations have not been started yet <br />• Planning to
-                  start launch games
-                </p>
-              </div>
-              <div class="resume-item">
-                <p class="year">June 2024 - July 2024</p>
-                <h3>Unity Developer</h3>
-                <p class="company">DigAmenD Technology Solutions.</p>
-                <p>
-                  • Worked here as a game developer <br />• Been part of
-                  development a game called Supreme Rangale
-                </p>
-              </div>
-              <div class="resume-item">
-                <p class="year">Dec 2024 - May 2024</p>
-                <h3>Unity Developer</h3>
-                <p class="company">Madras Mind Works (p) LTD.</p>
-                <p>
-                  • Completed my internship here in AR/VR <br />• Designed and
-                  developed a VR game called Scary Night
-                </p>
-              </div>
+        <div class="resume-detail skills">
+          <h2 class="heading">My <span>Skills</span></h2>
+          <p class="desc">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam
+            fugit necessitatibus beatae quasi quaerat quam delectus hic sint
+            quae repellendus, modi sit illum sequi soluta quis debitis
+            repudiandae ipsa ea!
+          </p>
+          <div class="resume-list">
+            <div class="resume-item">
+              <i class="bx bxl-html5"></i>
+              <span>HTML</span>
+            </div>
+            <div class="resume-item">
+              <i class="bx bxl-css3"></i>
+              <span>CSS</span>
+            </div>
+            <div class="resume-item">
+              <i class="bx bxl-tailwind-css"></i>
+              <span>TailwindCSS</span>
+            </div>
+            <div class="resume-item">
+              <i class="bx bxl-javascript"></i>
+              <span>JavaScript</span>
+            </div>
+            <div class="resume-item">
+              <i class="bx bxl-nodejs"></i>
+              <span>Node.js</span>
+            </div>
+            <div class="resume-item">
+              <i class="fas fa-express">Ex</i>
+              <span>Express.js</span>
+            </div>
+            <div class="resume-item">
+              <i class="bx bxl-mongodb"></i>
+              <span>MongoDB</span>
+            </div>
+            <div class="resume-item">
+              <i class="bx bxl-react"></i>
+              <span>React.js</span>
+            </div>
+            <div class="resume-item">
+              <i class="bx bxl-git"></i>
+              <span>Git</span>
+            </div>
+            <div class="resume-item">
+              <i class="bx bxl-unity"></i>
+              <span>Unity</span>
             </div>
           </div>
-          <div class="resume-detail education">
-            <h2 class="heading">My <span>Education</span></h2>
-            <p class="desc">
-              Completed my Mechanical Engineering in 2023. but learning new
-              things almost everyday
-            </p>
-            <div class="resume-list">
-              <div class="resume-item">
-                <p class="year">2025</p>
-                <h3>Backend Development Bootcamp (40hr)</h3>
-                <p class="company">Online course</p>
-                <p>
-                  Completed course and developed a full fleged Backend server
-                  side rendered web app
-                </p>
-              </div>
-              <div class="resume-item">
-                <p class="year">2019 - 2023</p>
-                <h3>Bachelors in Technology</h3>
-                <p class="company">RGUKT Ongole</p>
-                <p>Did my BTech in Mechanical Engineering here</p>
-              </div>
-              <div class="resume-item">
-                <p class="year">2017 - 2019</p>
-                <h3>Pre-University Course</h3>
-                <p class="company">RGUKT Ongole</p>
-                <p>Completed my +2 here in Maths, Physics, Chemistry</p>
-              </div>
+        </div>
+        <div class="resume-detail about">
+          <h2 class="heading">About <span>Me</span></h2>
+          <p class="desc">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam
+            fugit necessitatibus beatae quasi quaerat quam delectus hic sint
+            quae repellendus, modi sit illum sequi soluta quis debitis
+            repudiandae ipsa ea!
+          </p>
+          <div class="resume-list">
+            <div class="resume-item">
+              <p>Name <span>Thirumala Reddy</span></p>
             </div>
-          </div>
-          <div class="resume-detail skills">
-            <h2 class="heading">My <span>Skills</span></h2>
-            <p class="desc">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam
-              fugit necessitatibus beatae quasi quaerat quam delectus hic sint
-              quae repellendus, modi sit illum sequi soluta quis debitis
-              repudiandae ipsa ea!
-            </p>
-            <div class="resume-list">
-              <div class="resume-item">
-                <i class="bx bxl-html5"></i>
-                <span>HTML</span>
-              </div>
-              <div class="resume-item">
-                <i class="bx bxl-css3"></i>
-                <span>CSS</span>
-              </div>
-              <div class="resume-item">
-                <i class="bx bxl-tailwind-css"></i>
-                <span>TailwindCSS</span>
-              </div>
-              <div class="resume-item">
-                <i class="bx bxl-javascript"></i>
-                <span>JavaScript</span>
-              </div>
-              <div class="resume-item">
-                <i class="bx bxl-nodejs"></i>
-                <span>Node.js</span>
-              </div>
-              <div class="resume-item">
-                <i class="fas fa-express">Ex</i>
-                <span>Express.js</span>
-              </div>
-              <div class="resume-item">
-                <i class="bx bxl-mongodb"></i>
-                <span>MongoDB</span>
-              </div>
-              <div class="resume-item">
-                <i class="bx bxl-react"></i>
-                <span>React.js</span>
-              </div>
-              <div class="resume-item">
-                <i class="bx bxl-git"></i>
-                <span>Git</span>
-              </div>
-              <div class="resume-item">
-                <i class="bx bxl-unity"></i>
-                <span>Unity</span>
-              </div>
+            <div class="resume-item">
+              <p>Gender <span>Male</span></p>
             </div>
-          </div>
-          <div class="resume-detail about">
-            <h2 class="heading">About <span>Me</span></h2>
-            <p class="desc">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam
-              fugit necessitatibus beatae quasi quaerat quam delectus hic sint
-              quae repellendus, modi sit illum sequi soluta quis debitis
-              repudiandae ipsa ea!
-            </p>
-            <div class="resume-list">
-              <div class="resume-item">
-                <p>Name <span>Thirumala Reddy</span></p>
-              </div>
-              <div class="resume-item">
-                <p>Gender <span>Male</span></p>
-              </div>
-              <div class="resume-item">
-                <p>Age <span>22 years old</span></p>
-              </div>
-              <div class="resume-item">
-                <p>Marital status <span>Unmarried</span></p>
-              </div>
-              <div class="resume-item">
-                <p>City <span>Chennai</span></p>
-              </div>
-              <div class="resume-item">
-                <p>Nationality <span>Indian</span></p>
-              </div>
-              <div class="resume-item">
-                <p>Experience <span>1.5+ years</span></p>
-              </div>
-              <div class="resume-item">
-                <p>Fulltime <span>Available</span></p>
-              </div>
-              <div class="resume-item">
-                <p>Freelance <span>Available</span></p>
-              </div>
-              <div class="resume-item">
-                <p>Phone <span>+91 91820 37368</span></p>
-              </div>
-              <div class="resume-item">
-                <p>Email <span>o170231thiru@gmail.com</span></p>
-              </div>
-              <div class="resume-item">
-                <p>Languages <span>English, Hindi, Telugu</span></p>
-              </div>
+            <div class="resume-item">
+              <p>Age <span>22 years old</span></p>
+            </div>
+            <div class="resume-item">
+              <p>Marital status <span>Unmarried</span></p>
+            </div>
+            <div class="resume-item">
+              <p>City <span>Chennai</span></p>
+            </div>
+            <div class="resume-item">
+              <p>Nationality <span>Indian</span></p>
+            </div>
+            <div class="resume-item">
+              <p>Experience <span>1.5+ years</span></p>
+            </div>
+            <div class="resume-item">
+              <p>Fulltime <span>Available</span></p>
+            </div>
+            <div class="resume-item">
+              <p>Freelance <span>Available</span></p>
+            </div>
+            <div class="resume-item">
+              <p>Phone <span>+91 91820 37368</span></p>
+            </div>
+            <div class="resume-item">
+              <p>Email <span>o170231thiru@gmail.com</span></p>
+            </div>
+            <div class="resume-item">
+              <p>Languages <span>English, Hindi, Telugu</span></p>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- portfolio section -->
-    <section class="portfolio active">
-      <h2 class="heading">Latest <span>Project</span></h2>
-      <div class="portfolio-container">
-        <div class="portfolio-box">
-          <div class="portfolio-detail active">
-            <p class="numb">01</p>
-            <h3>Natours API</h3>
-            <p>
-              • 👀 Came across this awesome tour booking app idea and built my
-              own backend version for practice and learning<br />
-              • ⚙️ Built with Node.js, Express.js, and MongoDB – everything from
-              scratch!<br />
-              • 🔐 Implemented full authentication with Google login, JWT, and
-              email verification<br />
-              • 💳 Integrated Stripe for secure and smooth online payments<br />
-              • 🔁 Included password reset flow via email with secure tokens<br />
-              • 📫 Users get confirmation emails on signup and actions – yep,
-              emails are working!<br />
-              • 🔍 Used MVC architecture and clean RESTful API design – scalable
-              and maintainable<br />
-              • 🚀 Super proud of how production-ready and secure it feels for a
-              personal project 💪
-            </p>
-            <div class="tech">
-              <p>Node, MongoDB, Express</p>
-            </div>
-            <div class="live-github">
-              <a href="https://natours.trustudios.in/" target="_blank"
-                ><i class="bx bx-arrow-back"></i><span>Live Project</span></a
-              >
-              <a
-                href="https://github.com/thirumal-231/Natours"
-                target="_blank"
-                ><i class="bx bxl-github"></i><span>Github Repository</span></a
-              >
-            </div>
+  <!-- portfolio section -->
+  <section class="portfolio active">
+    <h2 class="heading">Latest <span>Project</span></h2>
+    <div class="portfolio-container">
+
+      <div class="portfolio-box">
+
+        <div class="portfolio-detail active">
+          <p class="numb">01</p>
+          <h3>Tru Kanban - Realtime Collaborative Kanban Board</h3>
+          <p>
+            ● Designed and developed a full-stack kanban app with Node.js, Express, React<br />
+            ● Setup drag and drop feature for the cards and lists with Dnd Kit.<br />
+            ● Implemented optimistic updates with TanStack Query, eliminating redundant refetches on
+            drag-and-drop.<br />
+            ● Handled multiple query transactions with PostgreSQL with DrizzleORM<br />
+            ● Built invite system with tokenized links and real-time Socket.io room management<br />
+            ● Integrated Gemini API for inline grammar correction, with graceful fallback on API failure<br />
+          </p>
+          <div class="tech">
+            <p>Node, PostgreSQL, Gemini, Express, Socket.io</p>
           </div>
-          <div class="portfolio-detail">
-            <p class="numb">02</p>
-            <h3>Pomodoro Timer</h3>
-            <p>
-              • 👀 Saw this somewhere online so i recreated it as a practice<br />•
-              🛠️ Used JavaScript, HTML, and CSS <br />• 📱Yes it is fully
-              responsive and<br />• ⏱️ Yes timers timer cycle is working
-              correctly one after the other 🚀
-            </p>
-            <div class="tech">
-              <p>HTML, CSS, JavaScript</p>
-            </div>
-            <div class="live-github">
-              <a href="https://thirumal-231.github.io/Pomodoro/" target="_blank"
-                ><i class="bx bx-arrow-back"></i><span>Live Project</span></a
-              >
-              <a href="https://github.com/thirumal-231/Pomodoro" target="_blank"
-                ><i class="bx bxl-github"></i><span>Github Repository</span></a
-              >
-            </div>
+          <div class="live-github">
+            <a href="https://youtu.be/qEnW_jNVW-I?si=0dki7ntQK22_lreD" target="_blank">
+              <i class="bx bx-arrow-back"></i><span>Live Project</span>
+            </a>
+            <a href="https://github.com/thirumal-231/collaborative-kanban-be" target="_blank">
+              <i class="bx bxl-github"></i><span>Github Repository</span>
+            </a>
           </div>
-          <div class="portfolio-detail">
-            <p class="numb">03</p>
-            <h3>Tru Do</h3>
-            <p>
-              • 🎉 This is my first succesful CRUD implemented app<br />• 🗂️ I
-              used MongoDB for database<br />• ✅ you can CREATE, READ, UPDATE,
-              DELETE todo<br />• 🤖 Utilised ChatGPT for TailwindCSS styling<br />•
-              🌐 Server side rendering with EJS
-            </p>
-            <div class="tech">
-              <p>Node, Express, MongoDB, TailwindCSS</p>
-            </div>
-            <div class="live-github">
-              <a
-                href="https://drive.google.com/file/d/1Gyc9UULRo7x1VoWul6_1h9rXpMuEgau0/view"
-                target="_blank"
-                ><i class="bx bx-arrow-back"></i><span>Live Project</span></a
-              >
-              <a href="https://github.com/thirumal-231/Tru-Do" target="_blank"
-                ><i class="bx bxl-github"></i><span>Github Repository</span></a
-              >
-            </div>
-          </div>
-          <div class="portfolio-detail">
-            <p class="numb">04</p>
-            <h3>QR code generator</h3>
-            <p>
-              • 🏗️ This is a very basic QR code generator app<br />• 📦 Used
-              express and qr-image packages<br />• 🖼️ generate qr codes as png
-              images<br />• 🤖 Utilised ChatGPT for CSS styling<br />• 🌐 Used
-              EJS for templating
-            </p>
-            <div class="tech">
-              <p>Node, Express, qr-image</p>
-            </div>
-            <div class="live-github">
-              <a
-                href="https://drive.google.com/file/d/11ter60jGw5INCka1iZX6Bggk-3EpkxsA/view?usp=drive_link"
-                target="_blank"
-                ><i class="bx bx-arrow-back"></i><span>Live Project</span></a
-              >
-              <a
-                href="https://github.com/thirumal-231/qr-code-generator"
-                target="_blank"
-                ><i class="bx bxl-github"></i><span>Github Repository</span></a
-              >
-            </div>
-          </div>
-          <!-- <div class="portfolio-detail">
-            <p class="numb">04</p>
-            <h3>Backend Project</h3>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus
-              nam aliquid labore vero mollitia nesciunt.
-            </p>
-            <div class="tech">
-              <p>HTML, CSS, JavaScript</p>
-            </div>
-            <div class="live-github">
-              <a href="#"
-                ><i class="bx bx-arrow-back"></i><span>Live Project</span></a
-              >
-              <a href="#"
-                ><i class="bx bxl-github"></i><span>Github Repository</span></a
-              >
-            </div>
-          </div> -->
-          <!-- <div class="portfolio-detail">
-            <p class="numb">05</p>
-            <h3>Frontend Project</h3>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus
-              nam aliquid labore vero mollitia nesciunt.
-            </p>
-            <div class="tech">
-              <p>HTML, CSS, JavaScript</p>
-            </div>
-            <div class="live-github">
-              <a href="#"
-                ><i class="bx bx-arrow-back"></i><span>Live Project</span></a
-              >
-              <a href="#"
-                ><i class="bx bxl-github"></i><span>Github Repository</span></a
-              >
-            </div>
-          </div> -->
-          <!-- <div class="portfolio-detail">
-            <p class="numb">06</p>
-            <h3>Backend Project</h3>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus
-              nam aliquid labore vero mollitia nesciunt.
-            </p>
-            <div class="tech">
-              <p>HTML, CSS, JavaScript</p>
-            </div>
-            <div class="live-github">
-              <a href="#"
-                ><i class="bx bx-arrow-back"></i><span>Live Project</span></a
-              >
-              <a href="#"
-                ><i class="bx bxl-github"></i><span>Github Repository</span></a
-              >
-            </div>
-          </div> -->
         </div>
-        <div class="portfolio-box">
-          <div class="portfolio-carousal">
-            <div class="img-slide">
-              <div class="img-item video">
-  <iframe
-    src="https://www.youtube.com/embed/BT0mcVri1VU"
-    width="723" 
-  height="450"
-    title="YouTube video"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen
-  ></iframe>
-</div>
-              <div class="img-item">
-                <img src="./images/trupomodoro.gif" alt="" />
-              </div>
-              <div class="img-item">
-                <img src="./images/tru-do.gif" alt="" />
-              </div>
-              <div class="img-item">
-                <img src="./images/qrcodegenerator.gif" alt="" />
-              </div>
-              <!-- <div class="img-item">
-                <img src="./images/portfolio4.jpg" alt="" />
-              </div> -->
-              <!-- <div class="img-item">
-                <img src="./images/portfolio5.jpg" alt="" />
-              </div> -->
-              <!-- <div class="img-item">
-                <img src="./images/portfolio6.jpg" alt="" />
-              </div> -->
+
+        <div class="portfolio-detail">
+          <p class="numb">02</p>
+          <h3>Natours API</h3>
+          <p>
+            • 👀 Came across this awesome tour booking app idea and built my own backend version for practice and
+            learning<br />
+            • ⚙️ Built with Node.js, Express.js, and MongoDB – everything from scratch!<br />
+            • 🔐 Implemented full authentication with Google login, JWT, and email verification<br />
+            • 💳 Integrated Stripe for secure and smooth online payments<br />
+            • 🔁 Included password reset flow via email with secure tokens<br />
+            • 📫 Users get confirmation emails on signup and actions – yep, emails are working!<br />
+            • 🔍 Used MVC architecture and clean RESTful API design – scalable and maintainable<br />
+            • 🚀 Super proud of how production-ready and secure it feels for a personal project 💪
+          </p>
+          <div class="tech">
+            <p>Node, MongoDB, Express</p>
+          </div>
+          <div class="live-github">
+            <a href="https://natours.trustudios.in/" target="_blank">
+              <i class="bx bx-arrow-back"></i><span>Live Project</span>
+            </a>
+            <a href="https://github.com/thirumal-231/Natours" target="_blank">
+              <i class="bx bxl-github"></i><span>Github Repository</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="portfolio-detail">
+          <p class="numb">03</p>
+          <h3>Pomodoro Timer</h3>
+          <p>
+            • 👀 Saw this somewhere online so i recreated it as a practice<br />
+            • 🛠️ Used JavaScript, HTML, and CSS<br />
+            • 📱Yes it is fully responsive and<br />
+            • ⏱️ Yes timers timer cycle is working correctly one after the other 🚀
+          </p>
+          <div class="tech">
+            <p>HTML, CSS, JavaScript</p>
+          </div>
+          <div class="live-github">
+            <a href="https://thirumal-231.github.io/Pomodoro/" target="_blank">
+              <i class="bx bx-arrow-back"></i><span>Live Project</span>
+            </a>
+            <a href="https://github.com/thirumal-231/Pomodoro" target="_blank">
+              <i class="bx bxl-github"></i><span>Github Repository</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="portfolio-detail">
+          <p class="numb">04</p>
+          <h3>Tru Do</h3>
+          <p>
+            • 🎉 This is my first successful CRUD implemented app<br />
+            • 🗂️ I used MongoDB for database<br />
+            • ✅ you can CREATE, READ, UPDATE, DELETE todo<br />
+            • 🤖 Utilised ChatGPT for TailwindCSS styling<br />
+            • 🌐 Server side rendering with EJS
+          </p>
+          <div class="tech">
+            <p>Node, Express, MongoDB, TailwindCSS</p>
+          </div>
+          <div class="live-github">
+            <a href="https://drive.google.com/file/d/1Gyc9UULRo7x1VoWul6_1h9rXpMuEgau0/view" target="_blank">
+              <i class="bx bx-arrow-back"></i><span>Live Project</span>
+            </a>
+            <a href="https://github.com/thirumal-231/Tru-Do" target="_blank">
+              <i class="bx bxl-github"></i><span>Github Repository</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="portfolio-detail">
+          <p class="numb">05</p>
+          <h3>QR code generator</h3>
+          <p>
+            • 🏗️ This is a very basic QR code generator app<br />
+            • 📦 Used express and qr-image packages<br />
+            • 🖼️ generate qr codes as png images<br />
+            • 🤖 Utilised ChatGPT for CSS styling<br />
+            • 🌐 Used EJS for templating
+          </p>
+          <div class="tech">
+            <p>Node, Express, qr-image</p>
+          </div>
+          <div class="live-github">
+            <a href="https://drive.google.com/file/d/11ter60jGw5INCka1iZX6Bggk-3EpkxsA/view?usp=drive_link"
+              target="_blank">
+              <i class="bx bx-arrow-back"></i><span>Live Project</span>
+            </a>
+            <a href="https://github.com/thirumal-231/qr-code-generator" target="_blank">
+              <i class="bx bxl-github"></i><span>Github Repository</span>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="portfolio-box">
+        <div class="portfolio-carousal">
+          <div class="img-slide">
+            <div class="img-item video">
+              <iframe src="https://www.youtube.com/embed/qEnW_jNVW-I" width="723" height="450"
+                title="Full stack Realtime Collaborative Kanban | React | Node | PostgreSQL | DnD Kit | Gemini"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+            <div class="img-item video">
+              <iframe src="https://www.youtube.com/embed/BT0mcVri1VU" width="723" height="450" title="YouTube video"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+            <div class="img-item">
+              <img src="./images/trupomodoro.gif" alt="Pomodoro Timer Preview" />
+            </div>
+            <div class="img-item">
+              <img src="./images/tru-do.gif" alt="Tru Do Preview" />
+            </div>
+            <div class="img-item">
+              <img src="./images/qrcodegenerator.gif" alt="QR Code Generator Preview" />
             </div>
           </div>
-          <div class="navigation">
-            <button class="arrow-left disabled">
-              <i class="bx bx-chevron-left"></i>
-            </button>
-            <button class="arrow-right">
-              <i class="bx bx-chevron-right"></i>
-            </button>
+        </div>
+
+        <div class="navigation">
+          <button class="arrow-left disabled" aria-label="Previous Project">
+            <i class="bx bx-chevron-left"></i>
+          </button>
+          <button class="arrow-right" aria-label="Next Project">
+            <i class="bx bx-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- contact section -->
+  <section class="contact">
+    <div class="contact-container">
+      <div class="contact-box">
+        <h2>Let's Work Together</h2>
+        <p>Have an idea in mind, want to make it reality?</p>
+        <div class="contact-detail">
+          <i class="bx bxs-phone"></i>
+          <div class="detail">
+            <p>Phone</p>
+            <p>+91 91820 37368</p>
+          </div>
+        </div>
+        <div class="contact-detail">
+          <i class="bx bx-envelope"></i>
+          <div class="detail">
+            <p>Email</p>
+            <p>o170231thiru@gmail.com</p>
+          </div>
+        </div>
+        <div class="contact-detail">
+          <i class="bx bxs-map"></i>
+          <div class="detail">
+            <p>Address</p>
+            <p>Chennai, TN, IN</p>
           </div>
         </div>
       </div>
-    </section>
-
-    <!-- contact section -->
-    <section class="contact">
-      <div class="contact-container">
-        <div class="contact-box">
-          <h2>Let's Work Together</h2>
-          <p>Have an idea in mind, want to make it reality?</p>
-          <div class="contact-detail">
-            <i class="bx bxs-phone"></i>
-            <div class="detail">
-              <p>Phone</p>
-              <p>+91 91820 37368</p>
-            </div>
+      <div class="contact-box">
+        <form action="">
+          <h2 class="heading">Contact <span>Me!</span></h2>
+          <div class="field-box">
+            <input type="text" placeholder="Full Name" required />
+            <input type="email" placeholder="Email Address" required />
+            <input type="text" placeholder="Phone Number" required />
+            <input type="text" placeholder="Email Subject" required />
+            <textarea name="" id="" placeholder="Your Message" required></textarea>
           </div>
-          <div class="contact-detail">
-            <i class="bx bx-envelope"></i>
-            <div class="detail">
-              <p>Email</p>
-              <p>o170231thiru@gmail.com</p>
-            </div>
-          </div>
-          <div class="contact-detail">
-            <i class="bx bxs-map"></i>
-            <div class="detail">
-              <p>Address</p>
-              <p>Chennai, TN, IN</p>
-            </div>
-          </div>
-        </div>
-        <div class="contact-box">
-          <form action="">
-            <h2 class="heading">Contact <span>Me!</span></h2>
-            <div class="field-box">
-              <input type="text" placeholder="Full Name" required />
-              <input type="email" placeholder="Email Address" required />
-              <input type="text" placeholder="Phone Number" required />
-              <input type="text" placeholder="Email Subject" required />
-              <textarea
-                name=""
-                id=""
-                placeholder="Your Message"
-                required
-              ></textarea>
-            </div>
-            <button type="submit" class="btn">Send Message</button>
-          </form>
-        </div>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- custom js -->
-    <script src="js/script.js"></script>
-  </body>
+  <!-- custom js -->
+  <script src="js/script.js"></script>
+</body>
+
 </html>
-
-
-
-
-
-
-
