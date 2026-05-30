@@ -922,3 +922,34 @@ section.active {
     margin-bottom: 2rem;
   }
 }
+
+/* 1. Tell the container to space things nicely */
+.portfolio-container {
+  display: flex;
+  gap: 3rem; /* Gives some nice breathing room between text and video */
+  align-items: flex-start;
+}
+
+/* 2. Enforce the 50/50 split treaty */
+.portfolio-container .portfolio-box {
+  flex: 1; /* Forces both the left and right sides to share the space equally */
+  width: 50%;
+  min-width: 0; /* THE MAGIC SHIELD: Prevents the oversized iframe from stretching this box */
+}
+
+/* 3. Put the video on a responsive diet */
+.portfolio-carousal .img-slide .img-item.video iframe {
+  width: 100% !important; /* Overrides your hardcoded HTML width="723" */
+  height: auto !important;
+  aspect-ratio: 16 / 9; /* Keeps the perfect YouTube rectangle shape */
+}
+
+/* 4. Make sure it still looks good on mobile! */
+@media (max-width: 991px) {
+  .portfolio-container {
+    flex-direction: column;
+  }
+  .portfolio-container .portfolio-box {
+    width: 100%;
+  }
+}
