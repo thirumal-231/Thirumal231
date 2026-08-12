@@ -11,7 +11,7 @@ export const DATA = {
     "Fullstack Developer & Problem Solver. I love building things and helping people. I read books. I'm fascinated by psychology and mind.",
   summary:
     "Im a Backend-focused Full Stack Developer (Node.js/Express/React) with [2+ years](/#experience) of production experience, transitioning from infrastructure and API development on VR/Unity-based platforms into product-focused web development. Built and shipped [TruKanban , a real-time collaborative Kanban app](/#projects) (Node.js, PostgreSQL, React, Socket.io), and [Natours , a full-stack tour booking platform with Stripe payment integration](/#projects) . Proficient in REST API design, relational and document databases, and AWS deployment.",
-  avatarUrl: "/Headshot_me.jpeg",
+  avatarUrl: "/me.jpeg",
   skills: [
     {
       category: "Languages",
