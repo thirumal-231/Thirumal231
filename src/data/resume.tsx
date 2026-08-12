@@ -4,9 +4,9 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Thirumala Reddy",
   initials: "TR",
-  url: "https://dillion.io",
+  url: "https://www.linkedin.com/in/thirumala231/",
   location: "Chennai, TN",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  locationLink: "https://www.google.com/maps/place/chennai",
   description:
     "Fullstack Developer & Problem Solver. I love building things and helping people. I read books. I'm fascinated by psychology and mind.",
   summary:
