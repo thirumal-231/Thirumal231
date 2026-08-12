@@ -83,7 +83,9 @@ export default function Page() {
                   <div className="flex flex-wrap gap-2">
                     {group.skills.map((skill) => {
                       const skillName =
-                        typeof skill === "string" ? skill : skill.name;
+                        typeof skill === "string"
+                          ? skill
+                          : (skill as { name: string }).name;
 
                       return (
                         <div
